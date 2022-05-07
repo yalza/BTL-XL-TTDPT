@@ -1806,7 +1806,9 @@ body.active { overflow: hidden; }
   padding-bottom: 25px;
 }
 
-.TVshows-list { grid-template-columns: repeat(4, 1fr); }
+.TVshows-list {   
+  grid-template-columns: repeat(4, 1fr);
+ }
 
 
 /* TVSHOWS-DETAILS
