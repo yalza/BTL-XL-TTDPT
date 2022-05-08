@@ -405,6 +405,8 @@ body.active { overflow: hidden; }
   z-index: 3;
 }
 
+
+
 .navbar.active {
   right: 0;
   visibility: visible;
@@ -560,8 +562,60 @@ body.active { overflow: hidden; }
 }
 
 
+.search{
+  display: flex;
+  font-size: 22px;
+  margin: 10px 20% 10px 10.5%;
+  max-height: 37px;
+}
+.search-a{
+  flex-grow: 9.5; 
+  border-radius: 3px 0px 0px 3px;
+  border: 2px solid var(--mauChinh);
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+
+}
+::placeholder{
+  font: var(--ff-poppins);
+  font-size: 17px;
+}
+
+::placeholder:focus{
+  border: 1px solid var(--mauChinh);
+  font: var(--ff-poppins);
+  font-size: 17px;
+}
 
 
+.search-b{
+  color: var(--denHoiTrang);
+  padding-top: 4px;
+  font: 17px var(--ff-poppins);
+  text-align: center;
+  flex-grow: 0.5;
+  background-color: var(--xamTrang);
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 0px 3px 3x 0px;
+  border: 2px solid var(--mauChinh);
+}
+
+
+.search-b:hover{
+  background: var(--mauChinh);
+  color: var(--trang);
+}
+
+.name-TTV{
+  color: var(--mauChinh);
+  font-size: 30px;
+  font-weight: 1000;
+  margin-right: 8%;
+  padding-bottom: 20px;
+}
 
 
 
