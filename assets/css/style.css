@@ -574,10 +574,6 @@ body.active { overflow: hidden; }
   border: 2px solid var(--mauChinh);
 }
 
-input[type=text]:focus {
-  background-color: lightblue;
-
-}
 ::placeholder{
   font: var(--ff-poppins);
   font-size: 17px;
