@@ -565,7 +565,7 @@ body.active { overflow: hidden; }
 .search{
   display: flex;
   font-size: 22px;
-  margin: 10px 20% 10px 10.5%;
+  margin: 10px 280px 10px 160px;
   max-height: 37px;
 }
 .search-a{
@@ -599,7 +599,7 @@ input[type=text]:focus {
   background-color: var(--xamTrang);
   cursor: pointer;
   font-weight: 500;
-  border-radius: 0px 3px 3x 0px;
+  border-radius: 0px 3px 3px 0px;
   border: 2px solid var(--mauChinh);
 }
 
@@ -613,7 +613,7 @@ input[type=text]:focus {
   color: var(--mauChinh);
   font-size: 30px;
   font-weight: 1000;
-  margin-right: 8%;
+  margin-right: 70px;
   padding-bottom: 20px;
 }
 
