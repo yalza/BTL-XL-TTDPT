@@ -565,7 +565,7 @@ body.active { overflow: hidden; }
 .search{
   display: flex;
   font-size: 22px;
-  margin: 10px 280px 10px 160px;
+  margin: -10px 280px 5px 160px;
   max-height: 37px;
 }
 .search-a{
