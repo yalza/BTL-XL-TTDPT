@@ -1888,7 +1888,7 @@ input[type=text]:focus {
   padding-block: var(--section-padding);
 }
 
-.pricing-content { 
+.pricing-content{ 
   margin-top: 60px; 
   margin-bottom: 60px;
 }
@@ -1900,7 +1900,10 @@ input[type=text]:focus {
   margin-bottom: 10px;
 }
 
-.pricing-title { margin-bottom: 30px; }
+.h1 .pricing-title { 
+  margin-bottom: 50px; 
+  padding-top: 50px;
+}
 
 .pricing-title > strong { color: var(--mauChinh); }
 
@@ -1977,9 +1980,9 @@ input[type=text]:focus {
 .pricing-card .duration { margin-left: auto; }
 
 .card-price .card-price-btn{
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 20px;
   width: 100%;
   color: white;
   background: var(--xamXanh);
