@@ -1873,22 +1873,19 @@ body.active { overflow: hidden; }
 
  /* PRICING */
  .pricing {
-  background-color: var(--xamXanh);
+  background: --var(--xanhDenDen);
   background-size: cover;
   background-position: center;
-  min-height: 300px;
-  height: 100vh;
-  max-height: 500px;
+  min-height: 500px;
+  height: 95vh;
+  max-height: 1000px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-block: var(--section-padding);
 }
 
-.pricing-content{ 
-  margin-top: 60px; 
-  margin-bottom: 60px;
-}
+.pricing-content { margin-top: 60px; }
 
 .pricing-subtitle {
   color: var(--mauChinh);
@@ -1897,9 +1894,9 @@ body.active { overflow: hidden; }
   margin-bottom: 10px;
 }
 
-.h1 .pricing-title { 
-  margin-bottom: 50px; 
-  padding-top: 50px;
+.pricing-title { 
+  margin-bottom: 30px; 
+  line-height: 100px;
 }
 
 .pricing-title > strong { color: var(--mauChinh); }
@@ -2018,5 +2015,9 @@ body.active { overflow: hidden; }
   scroll-snap-type: inline mandatory;
   padding-bottom: 25px;
   padding-top: 25px;
+}
+
+.pricing-content > .container{
+  padding-bottom: 25px;
 }
 
