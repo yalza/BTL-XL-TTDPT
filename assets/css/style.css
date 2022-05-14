@@ -574,17 +574,6 @@ body.active { overflow: hidden; }
   border: 2px solid var(--mauChinh);
 }
 
-::placeholder{
-  font: var(--ff-poppins);
-  font-size: 17px;
-}
-
-::placeholder:focus{
-  border: 1px solid var(--mauChinh);
-  font: var(--ff-poppins);
-  font-size: 17px;
-}
-
 
 .search-b{
   color: var(--denHoiTrang);
@@ -597,6 +586,12 @@ body.active { overflow: hidden; }
   font-weight: 500;
   border-radius: 0px 3px 3px 0px;
   border: 2px solid var(--mauChinh);
+}
+
+.s-icon
+{
+  padding-top: 4px;
+  margin: auto;
 }
 
 
