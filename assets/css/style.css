@@ -1867,22 +1867,20 @@ body.active { overflow: hidden; }
 
  /* PRICING */
  .pricing {
-  background-color: var(--xamXanh);
+  background: linear-gradient(to bottom,rgba(0,0,0,0),#151515), url('/assets/images/pricing-images/background-min.png');;
   background-size: cover;
   background-position: center;
-  min-height: 300px;
-  height: 100vh;
-  max-height: 500px;
+  min-height: 500px;
+  height: 95vh;
+  max-height: 1000px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-block: var(--section-padding);
+  padding-top: 200px;
 }
 
-.pricing-content { 
-  margin-top: 60px; 
-  margin-bottom: 60px;
-}
+.pricing-content { margin-top: 60px; }
 
 .pricing-subtitle {
   color: var(--mauChinh);
@@ -1891,7 +1889,10 @@ body.active { overflow: hidden; }
   margin-bottom: 10px;
 }
 
-.pricing-title { margin-bottom: 30px; }
+.pricing-title { 
+  margin-left: 1.7em ; 
+  line-height: 100px;
+}
 
 .pricing-title > strong { color: var(--mauChinh); }
 
@@ -1968,9 +1969,9 @@ body.active { overflow: hidden; }
 .pricing-card .duration { margin-left: auto; }
 
 .card-price .card-price-btn{
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 20px;
   width: 100%;
   color: white;
   background: var(--xamXanh);
@@ -2010,4 +2011,9 @@ body.active { overflow: hidden; }
   padding-bottom: 25px;
   padding-top: 25px;
 }
+
+.pricing-content > .container{
+  padding-bottom: 50px;
+}
+
 
