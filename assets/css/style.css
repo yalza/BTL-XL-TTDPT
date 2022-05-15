@@ -475,7 +475,7 @@ body.active { overflow: hidden; }
 }
 
 .body4reg{
-  background: linear-gradient(rgba(0,0,0,0), var(--xanhHoiDen)), url(/assets/images/signUpIn/1234.jpg);
+  background: linear-gradient(rgba(0,0,0,0), var(--xanhHoiDen)), url("../images/signUpIn/1234.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
