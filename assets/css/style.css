@@ -1063,7 +1063,7 @@ body.active { overflow: hidden; }
 /* ALL MOVIES*/
 
 .movie-welcome {
-  background: linear-gradient(to bottom,rgba(0,0,0,0),var(--xanhHoiDen)), url('/assets/images/movie-images/Cướp biển vùng Caribbean (1).jpg');;
+  background: linear-gradient(to bottom,rgba(0,0,0,0),var(--xanhHoiDen)), url('/assets/images/movie-images/cuopBienVungCaribebean.jpg');;
   background-size: cover;
   background-position: center;
   min-height: 500px;
