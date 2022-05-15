@@ -1898,7 +1898,7 @@ body.active { overflow: hidden; }
 
  /* PRICING */
  .pricing {
-  background: linear-gradient(to bottom,rgba(0,0,0,0),var(--xanhHoiDen)), url('../images/pricing-images/background-min.png');;
+  background: linear-gradient(to bottom,rgba(0,0,0,0),var(--xanhHoiDen)), url("../images/pricing-images/background-min.png");;
   background-size: cover;
   background-position: center;
   min-height: 500px;
