@@ -1773,7 +1773,7 @@ body.active { overflow: hidden; }
 
 
 .domestic{
-  margin-top: 200px;
+  margin-top: 0px;
   margin-bottom: 100px;
 }
 
@@ -1891,9 +1891,27 @@ body.active { overflow: hidden; }
  }
 
 
-/* TVSHOWS-DETAILS
- */
+ .TV-shows-title { 
+  margin-left: 0% ;
+  line-height: 100px;
+}
 
+.TV-shows-title > strong { color: var(--mauChinh); }
+
+
+ .TV-shows {
+  background: linear-gradient(to bottom,rgba(18, 16, 16, 30%),var(--xanhHoiDen)), url("../images/TV-shows-images/TV-bg.jpg");;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-block: var(--section-padding);
+  padding-top: 200px;
+}
 
 
  /* PRICING */
@@ -1911,7 +1929,7 @@ body.active { overflow: hidden; }
   padding-top: 200px;
 }
 
-.pricing-content { margin-top: 40px; }
+.pricing-content .TV-shows-content { margin-top: 40px; }
 
 .pricing-subtitle {
   color: var(--mauChinh);
