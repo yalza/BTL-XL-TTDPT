@@ -475,7 +475,11 @@ body.active { overflow: hidden; }
 }
 
 .body4reg{
+  background: linear-gradient(rgba(0,0,0,0), var(--xanhHoiDen)), url(/assets/images/signUpIn/1234.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -621,7 +625,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: linear-gradient(to bottom,rgba(0,0,0,0),#151515), url('/assets/images/index-images/mau-vector-backgound-dep-hot.jpg');
+  background: linear-gradient(to bottom,rgba(0,0,0,0),#151515), url('/assets/images/index-images/Bigbang_\ \(15\).jpg');
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -1057,6 +1061,33 @@ body.active { overflow: hidden; }
 
 
 /* ALL MOVIES*/
+
+.movie-welcome {
+  background: linear-gradient(to bottom,rgba(0,0,0,0),var(--xanhHoiDen)), url('/assets/images/movie-images/Cướp\ biển\ vùng\ Caribbean\ \(1\).jpg');;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-block: var(--section-padding);
+  padding-top: 200px;
+}
+
+.movie-content { margin-top: 40px; }
+
+
+.movie-title { 
+  margin-left: 1.7em ; 
+  line-height: 100px;
+}
+
+.movie-title > strong { color: var(--mauChinh); }
+
+
+
 
 .all-movies-container{
   padding-top: 200px;
@@ -1880,7 +1911,7 @@ body.active { overflow: hidden; }
   padding-top: 200px;
 }
 
-.pricing-content { margin-top: 60px; }
+.pricing-content { margin-top: 40px; }
 
 .pricing-subtitle {
   color: var(--mauChinh);
