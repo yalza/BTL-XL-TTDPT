@@ -703,7 +703,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .service {
-  background: url("../images/service-bg.jpg") no-repeat;
+  background: url("../images/index-images/service-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -808,7 +808,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .top-rated {
-  background: url("../images/top-rated-bg.jpg") no-repeat;
+  background: url("../images/index-images/top-rated-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -862,7 +862,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .tv-series {
-  background: url("../images/tv-series-bg.jpg") no-repeat;
+  background: url("../images/index-images/tv-series-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
