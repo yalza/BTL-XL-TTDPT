@@ -1235,7 +1235,7 @@ body.active { overflow: hidden; }
 /* 
 trailer-player */
 
-body{
+.bg-video{
   background: url("../images/index-images/movie-detail-bg.png") no-repeat;
   background-size: cover;
 }
