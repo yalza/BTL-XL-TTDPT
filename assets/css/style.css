@@ -1235,9 +1235,15 @@ body.active { overflow: hidden; }
 /* 
 trailer-player */
 
+body{
+  background: url("../images/index-images/movie-detail-bg.png") no-repeat;
+  background-size: cover;
+}
+
 
 .video-wrapper
 {
+  
   margin: 300px 100px auto;
   width: 90%;
 
