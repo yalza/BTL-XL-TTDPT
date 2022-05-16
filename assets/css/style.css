@@ -1232,6 +1232,24 @@ body.active { overflow: hidden; }
 
 .download-btn ion-icon { font-size: 16px; }
 
+/* 
+trailer-player */
+
+
+.video-wrapper
+{
+  margin: 300px 100px auto;
+  width: 90%;
+
+}
+
+.video-trailer
+{
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
 
 
 
